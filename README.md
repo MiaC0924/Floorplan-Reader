@@ -1,6 +1,17 @@
 # Floorplan-Reader
 makefile and header file / recursive function / pointers / memory
 
+----------------
+
+To compile the program:
+- a makefile that compiles the program by combining the two source code files and the header file
+- The makefile have an option for a "make clean" command which will remove all object files as well as the executable file
+- You are able to simply type "make" in the terminal window to compile the code
+- The executable is called buildingTest
+
+----------------
+Functions:
+
 1. findDoors(FloorPlan *fplan)
 - finds all the doors for that floor
 - first iterate through the grid and count the number of doors
